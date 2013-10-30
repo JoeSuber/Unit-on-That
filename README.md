@@ -34,12 +34,12 @@ between 1000000000 sec, and 1383112218.92 sec
 a stringy-list breakdown (joined): 
  : 12 year, 3 month, 24 day, 4 hr, 3 min, 38 sec
 (0.921365022659 = fractional sec from given 383112218.921)
-a dictionary breakdown:
-year       :    12
-month      :     3
-day        :    24
-hr         :     4
-min        :     3
-sec        :    38
+a dictionary breakdown:\n
+year       :    12 \n
+month      :     3 \n
+day        :    24 \n
+hr         :     4 \n
+min        :     3 \n
+sec        :    38 \n
 
 Process finished with exit code 0
