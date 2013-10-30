@@ -45,4 +45,20 @@ min        :     3 ,
 sec        :    38 ,
 }
 
+ **
+- between 100000 penny, and 78947 penny
+- (0.0 = fractional penny from given -21053)
+a stringy-list breakdown (joined): 
+ : 2 Benjamin, 1 Hamilton, 2 Quarter, 3 penny
+- (0.0 = fractional penny from given -21053)
+a dictionary breakdown:{
+Benjamin   :     2 ,
+Hamilton   :     1 ,
+Quarter    :     2 ,
+penny      :     3 ,
+}
+
 Process finished with exit code 0
+Process finished with exit code 0
+
+
