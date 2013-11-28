@@ -1,7 +1,7 @@
 Unit-on-That
 ============
 
-- ie. Perhaps something just fell from a north-bound low-flying Piper-Cub to your farm on the Florida panhandle. Now, with apologies to the Reverend Horton Heat, you need to know when a certain number of "grains" becomes a gram and then grams an ounce, and then ounces to a kilogram. Just use a chart or web-site to get the decimal notations of those quantities into the labels and conversions as you go up the ladder of your definition. That helps you avoid problems of meaningless significant digits without having to think about where fractions of this-and-that fall between other units. Also lets you create your own units, like eighth-ounces or quarter-grams or 1/42 cents - without further burdening yourself or the user - (well... the user of the program, I mean).
+- ie. Perhaps something just fell from a north-bound low-flying Piper-Cub to your farm on the Florida panhandle. Now, with apologies to the Reverend Horton Heat, you need to know when a certain number of "grains" becomes a gram and then grams an ounce, and then ounces in a kilo. Wanting to only look it up once in the course of developing your business,, you use a chart or web-site to get the decimal notations of those quantities into two lists - labels and conversions - as you go up the ladder from smallest to biggest for a Unit-on-That instance. You avoid problems of meaningless significant digits without having to think about where fractions of this-and-that fall. You may create your own units, like eighth-ounces or quarter-grams or 1/42 cents - without further burdening yourself or the user - (well... the user of the program, I mean).
 
 Finds the maximum unit-chunk that fits inside the successive remainder-chunks 
 until the smallest grained (base) unit is exhausted.  Info presented in an
@@ -16,7 +16,7 @@ give a good sense of time from a time.time()-style blob of seconds
   - yes asctime is there, but it isn't clear how easily I might,
   for instance, show the user time since creation of a file 'f' via 
   its os.stat(f).st_ctime.  With this I just subtract st_ctime from now()
-  and show them whatever units are appropriate in the dict.
+  and show them whatever units are appropriate in the dict. Maybe they don't need minutes & seconds.
 
 deal with Imperial weights / measures 
 - you can use all ounces / inches until you need to translate for user-comprehension
@@ -31,8 +31,7 @@ heck, even metric
 If dealing with metric-to-imperial or imperial-to-metric you need only convert 
 the finest-grained units once 
 
-- use just your required precicion (as long as that requirement doesn't approach the bit-depth of the number-types you are using) Then let Unit-on-That do the rest of the work.  If a nanosecond is 1.017 feet of lightspeed travel in a vacuum... 
-
+- use just your required precicion (as long as that requirement doesn't approach the bit-depth of the number-types you are using) Then let Unit-on-That do the rest of the work.  If a nanosecond gives time for about 1.017 feet of lightspeed travel in a vacuum and copper conducts at about half that speed...
 
 __main__:
 
